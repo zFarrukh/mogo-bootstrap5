@@ -83,12 +83,18 @@ h6 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+/* Footer || Contact */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3px;
+}
 /* Utality class */
 .hover:hover {
   opacity: 0.7;
 }
 .bg-grey {
-  background-color: #dddddd !important;
+  background-color: #eeeeee !important;
 }
 .bg-green {
   background-color: var(--green) !important;
